@@ -1,0 +1,25 @@
+.hed {
+  flex-direction: column;
+  align-items: center;
+}
+#about-me {
+  height: 25rem;
+}
+#about-me .h-secondary center {
+  padding: 1px;
+}
+#project {
+  flex-direction: column;
+}
+#projects-container {
+  height: 51rem;
+}
+#contact {
+  flex-direction: column;
+}
+#contacts-container {
+  height: 381px;
+}
+#contact .contact-item {
+  padding: 27px;
+}

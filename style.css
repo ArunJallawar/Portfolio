@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "STIX Two Text", serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.mainbody {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.hed {
+  height: 7em;
+  width: 97em;
+  display: flex;
+  justify-content: flex-end;
+  /* border: 2px solid red; */
+  background-color: rgb(143, 136, 136);
+  background-color: ;
+}
+
+.hed .heading {
+  margin-right: auto;
+  padding: 63px 22px 48px 51px;
+  cursor: pointer;
+  /* padding: 34px; */
+  font-weight: 600;
+}
+.hed ul {
+  display: flex;
+  list-style: none;
+  /* padding: 47px 40px; */
+  padding: 63px 31px 12px 5px;
+  font-weight: 200px;
+}
+
+.hed .nav ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  display: block;
+
+  padding: 0px 22px;
+
+  color: black;
+  font-weight: 500;
+  font-size: 24pxs;
+}
+.nav li a {
+  font-size: 20px;
+}
+.profile-container {
+  display: block;
+  width: 401px;
+  margin: 12px auto;
+  /* border: 2px solid red; */
+  height: 480px;
+  font-weight: 700;
+  /* background-color: yellow; */
+}
+#profile img {
+  height: 266px;
+  margin: 5px 86px;
+}
+#profile img:hover {
+  cursor: pointer;
+  transition: all 2s linear;
+  transform: rotateY(360deg);
+}
+#profile.h-primary center {
+  /* display: block; */
+  padding: 8px 49px;
+}
+#profile.h-secondary center {
+  padding: 14px 21px;
+}
+
+#about-me {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 24em;
+  width: 100%;
+  /* border: 2px solid red; */
+  font-weight: 800;
+  background-color: #ddd;
+}
+#about-me .title {
+  padding: -5px;
+}
+#about-me .title .des {
+  padding: 12px;
+}
+#about-me .fas.fa-star {
+  padding: 53px;
+}
+#projects-container {
+  height: 34em;
+  width: 100%;
+  border: 2px solid black;
+  background-color: rgb(143, 136, 136);
+}
+
+#projects-container .h-primary center {
+  padding-top: 46px;
+}
+#projects-container .fas.fa-star {
+  padding: 40px 745px;
+}
+#project {
+  display: flex;
+
+  padding-top: 19px;
+}
+
+#project .box {
+  border: 2px solid black;
+  padding: 34px;
+  margin: 3px 10px;
+}
+
+#skills-container {
+  height: 17em;
+  /* border: 2px solid red; */
+  height: 249px;
+}
+#skills-container .h-primary center {
+  padding: 14px;
+}
+#skills-container .fas.fa-star {
+  padding: 19px 745px;
+}
+
+#skill {
+  padding: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#skill .skill-item {
+  padding: 44px;
+}
+#Hobbie-container {
+  height: 20em;
+  /* border: 2px solid yellow; */
+  background-color: rgb(143, 136, 136);
+}
+#Hobbie-container .h-primary center {
+  padding-top: 39px;
+}
+
+#Hobbie-container .fas.fa-star {
+  padding: 28px 745px;
+  position: absolute;
+}
+#Hobbie-container .fas.fa-book {
+  padding: 18px 35px;
+}
+#Hobbie-container .fas.fa-gamepad {
+  padding: 18px 35px;
+}
+#Hobbie-container .fas.fa-guitar {
+  padding: 18px 35px;
+}
+
+#Hobbies {
+  padding: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Hobbies .hobbies-item {
+  padding: 49px 34px;
+}
+#contacts-container {
+  height: 247px;
+  /* border: 2px solid black; */
+}
+#contacts-container .fas.fa-star {
+  padding: 11px 750px;
+}
+#contact .fas.fa-map-marked-alt {
+  padding: 8px 248px;
+}
+#contact .fas.fa-mobile-alt {
+  padding: 8px 56px;
+}
+#contact .fas.fa-mail-bulk {
+  padding: 25px 56px;
+}
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact .contact-item {
+  padding: 40px 22px;
+}
+footer {
+  background-color: black;
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* utility class */
+.center {
+  text-align: center;
+}
+.h-primary {
+  font-size: 1.8rem;
+  padding: 12px;
+}
+.h-secondary {
+  font-size: 1.1rem;
+  padding: 12px;
+}
+
+@media screen and (max-width: 1000px) {
+}
